@@ -1,0 +1,64 @@
+.workshop_topic_img_url{
+    width: 300px;
+    height: 150px;
+}
+
+.workshops_container{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    gap: 5px;
+}
+.workshop_card{
+    background: #fff;
+    border-radius: 5px;
+    border: .8px solid#cacaca;
+    text-align: left;
+    z-index: 100;
+    width: 300px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.workshop_description{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #161616;
+}
+
+.view_details_btn{
+    width: auto;
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: #000;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 4px 5px rgb(0 0 0/15%);
+    -moz-box-shadow: 0px 4px 5px rgb(0 0 0/15%);
+    box-shadow: 0px 4px 5px rgb(0 0 0/15%);
+    border: none;
+    outline: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    -webkit-transition: .2s all;
+    -moz-transition: .2s all;
+    -o-transition: .2s all;
+    transition: .2s all;
+}
+
+.workshop_timestamp{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.workshop_view_sections{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}

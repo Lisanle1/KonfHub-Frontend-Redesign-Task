@@ -1,0 +1,42 @@
+.event-description{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+blockquote{
+    margin: 0px;
+    text-align: justify;
+}
+
+
+table {
+    caption-side: bottom;
+    border-collapse: collapse;
+    margin-top: 12px;
+  }
+  
+
+  th {
+    font-weight: 400px;
+    text-align: inherit; 
+    text-align: center; 
+  }
+  
+  thead,
+  tbody,
+  tfoot,
+  tr,
+  td,
+  th {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 1px;
+    width: 320px;
+  }
+
+  table p{
+text-align: center;
+margin: 2px;
+  }
