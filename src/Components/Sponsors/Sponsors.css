@@ -1,0 +1,23 @@
+.sponsors_title{
+    text-transform: uppercase;
+}
+
+.sponsors_logo{
+    color: transparent;
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    border: 0.8px solid rgb(202, 202, 202);
+}
+
+.sponsor-section-2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-divider{
+    border: 0.1px solid rgb(180, 180, 180);
+    width: 70%;
+    height: 0.1px;
+}

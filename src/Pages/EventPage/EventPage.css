@@ -19,6 +19,7 @@
     flex: 1;
     overflow: scroll;
     padding: 0px 25px;
+    margin-bottom: 30px;
   }
   .left-content::-webkit-scrollbar {
     display: none;
